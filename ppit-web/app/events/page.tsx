@@ -1,9 +1,9 @@
 import Image from "next/image";
-import trondheim from "../public/trondheim.jpg";
+import trondheim from "../../public/trondheim.jpg";
 
-export default function Home() {
+export default function Events() {
   return (
-    <div className="relative min-h-screen font-sans">
+   <div className="relative min-h-screen font-sans">
       {/* Background image */}
       <Image
         src={trondheim}
@@ -20,7 +20,7 @@ export default function Home() {
       <main className="relative z-10 flex min-h-screen items-center justify-center px-16 py-32">
         <div className="max-w-3xl text-center sm:text-left text-white">
           <h1 className="mb-6 text-3xl font-semibold leading-10 tracking-tight">
-            HOME
+            EVENTS
           </h1>
 
           <p className="mb-10 max-w-md text-lg leading-8 text-zinc-200">

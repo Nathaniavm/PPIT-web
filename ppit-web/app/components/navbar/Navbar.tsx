@@ -117,7 +117,7 @@ export default function Navbar() {
                   Login
                 </Link>
                 <Link
-                  href="#"
+                  href="/signup"
                   className="block px-4 py-2 hover:bg-white/10 transition"
                   onClick={() => selectAuth('Sign Up')}
                 >
