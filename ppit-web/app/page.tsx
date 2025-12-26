@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Carousel from "@/components/carousel/Carousel";
 import trondheim from "../public/trondheim.jpg";
 
 export default function Home() {
@@ -17,11 +18,13 @@ export default function Home() {
       <div className="absolute inset-0 bg-black/40" />
 
       {/* Page content */}
-      <main className="relative z-10 flex min-h-screen items-center justify-center px-16 py-32">
-        <div className="max-w-3xl text-center sm:text-left text-white">
-          <h1 className="mb-6 text-3xl font-semibold leading-10 tracking-tight">
+      <main className="relative z-10 flex min-h-screen items-center justify-center justify-self-center px-16 py-32">
+        <div className="max-w-5xl text-center sm:text-left text-white items-center justify-items-center">
+          <h1 className="mb-6 text-3xl text-center font-semibold leading-10 tracking-tight">
             HOME
           </h1>
+
+          <Carousel />
 
           <p className="mb-10 max-w-md text-lg leading-8 text-zinc-200">
             Looking for a starting point or more instructions? Head over to{" "}
